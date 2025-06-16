@@ -1,0 +1,35 @@
+{
+  "8-Port Ethernet Switch.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "DIGITUS\"",
+      "INDUSTRIAL 8-PORT",
+      "FAST ETHERNET Switch",
+      "Industrial Ethernet Switch",
+      "POE"
+    ],
+    "ai-overview": [],
+    "port-details": "['Here is the analysis of the image in the requested tabular format:\\n\\n| PortNumber | PortLabel       | Connected |\\n|------------|-----------------|-----------|\\n| 1          | FE              | Yes       |\\n| 2          | FE              | Yes       |\\n| 3          | FE              | Yes       |\\n| 4          | FE              | Yes       |\\n| 5          | FE              | No        |\\n| 6          | FE              | No        |\\n| 7          | FE              | No        |\\n| 8          | FE              | No        |\\n| 1          | POE             | No        |\\n| 2          | LINK            | No        |\\n| 3          | 3               | No        |\\n| 4          | 4               | No        |\\n| 5          | 5               | No        |\\n| 6          | 6               | No        |\\n| 7          | 7               | No        |\\n| 8          | 8               | No        |\\n\\nThis table lists all the ports visible in the image, their labels, and whether they are connected or not. The numbering starts from the upper left and proceeds to the lower right.']"
+  },
+  "Cisco ASR 920.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "Cuco",
+      "Fitser Stocrage Tray"
+    ],
+    "ai-overview": [],
+    "port-details": "['Here is the analysis of the image in the requested tabular format:\\n\\n| PortNumber | PortLabel | Connected |\\n|------------|-----------|-----------|\\n| 1          |           | Yes       |\\n| 2          |           | Yes       |\\n| 3          |           | Yes       |\\n| 4          |           | Yes       |\\n| 5          |           | No        |\\n| 6          |           | No        |\\n| 7          |           | No        |\\n| 8          |           | No        |\\n| 9          |           | No        |\\n| 10         |           | No        |\\n| 11         |           | No        |\\n| 12         |           | No        |\\n| 13         |           | No        |\\n| 14         |           | No        |\\n| 15         |           | No        |\\n| 16         |           | No        |\\n| 17         |           | No        |\\n| 18         |           | No        |\\n| 19         |           | No        |\\n| 20         |           | No        |\\n| 21         |           | No        |\\n| 22         |           | No        |\\n| 23         |           | No        |\\n| 24         |           | No        |\\n| 25         |           | No        |\\n| 26         |           | No        |\\n| 27         |           | No        |\\n| 28         |           | No        |\\n| 29         |           | No        |\\n| 30         |           | No        |\\n| 31         |           | No        |\\n| 32         |           | No        |\\n| 33         |           | No        |\\n| 34         |           | No        |\\n| 35         |           | No        |\\n| 36         |           | No        |\\n| 37         |           | No        |\\n| 38         |           | No        |\\n| 39         |           | No        |\\n| 40         |           | No        |\\n| 41         |           | No        |\\n| 42         |           | No        |\\n| 43         |           | No        |\\n| 44         |           | No        |\\n| 45         |           | No        |\\n| 46         |           | No        |\\n| 47         |           | No        |\\n| 48         |           | No        |\\n\\n### Explanation:\\n- **PortNumber**: Ports are numbered sequentially from the upper left to the lower right.\\n- **PortLabel**: No labels are visible on the ports in the image.\\n- **Connected**: Only the first four ports (1-4) are connected, as indicated by the yellow cables. All other ports are not connected.']"
+  }
+}

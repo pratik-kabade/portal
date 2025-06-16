@@ -1,0 +1,11 @@
+REQ_ID,REQ_Description
+REQ001,Users should be able to create and manage work orders with various priorities and attachments
+REQ002,System should support comprehensive work order assignment including technicians assignment and labor tracking
+REQ003,System should provide full asset lifecycle management with hierarchical relationships and condition monitoring
+REQ004,System should maintain accurate inventory tracking with support for multiple storerooms and automated reordering
+REQ005,System should enable preventive maintenance scheduling based on calendar dates and meter readings
+REQ006,System should generate comprehensive reports for assets performance and maintenance history
+REQ007,System should support purchase requisition and purchase order management
+REQ008,System should provide role-based security and access control across all modules
+REQ009,System should support service request management and track request fulfillment
+REQ010,System should enable configuration of business processes and workflows

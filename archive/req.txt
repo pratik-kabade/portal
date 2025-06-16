@@ -1,0 +1,10 @@
+flask 
+flask_cors 
+pymongo 
+llama_index 
+llama_index_llms_ollama 
+sklearn 
+scikit-learn 
+jira 
+llama-index-embeddings-huggingface
+python-dotenv

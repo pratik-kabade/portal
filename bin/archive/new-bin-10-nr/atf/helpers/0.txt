@@ -1,0 +1,3 @@
+# Open the Event Viewer
+        app.driver.get("https://:16311/ibm/console/logon.jsp")
+        

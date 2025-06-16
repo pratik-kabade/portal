@@ -1,0 +1,35 @@
+{
+  "8-Port Ethernet Switch.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "DIGITUS\"",
+      "INDUSTRIAL 8-PORT",
+      "FAST ETHERNET Switch",
+      "Industrial Ethernet Switch",
+      "POE"
+    ],
+    "ai-overview": [],
+    "port-details": "['{\\n    \"1\": {\\n        \"PortNumber\": 1,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"Yes\"\\n    },\\n    \"2\": {\\n        \"PortNumber\": 2,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"No\"\\n    },\\n    \"3\": {\\n        \"PortNumber\": 3,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"Yes\"\\n    },\\n    \"4\": {\\n        \"PortNumber\": 4,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"Yes\"\\n    },\\n    \"5\": {\\n        \"PortNumber\": 5,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"No\"\\n    },\\n    \"6\": {\\n        \"PortNumber\": 6,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"Yes\"\\n    },\\n    \"7\": {\\n        \"PortNumber\": 7,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"No\"\\n    },\\n    \"8\": {\\n        \"PortNumber\": 8,\\n        \"PortLabel\": \"Link\",\\n        \"Connected\": \"No\"\\n    }\\n}']"
+  },
+  "Cisco ASR 920.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "Cuco",
+      "Fitser Stocrage Tray"
+    ],
+    "ai-overview": [],
+    "port-details": "['Based on your instructions, here is an analysis of the given image:\\n```css\\n{\\n  \"ports\": [\\n    {\\n      \"portNumber\": \"1\",\\n      \"portLabel\": \"GE0/0/24A-36B\",\\n      \"connected\": \"yes\"\\n    },\\n    {\\n      \"portNumber\": \"2\",\\n      \"portLabel\": \"GE0/0/25A-37C\",\\n      \"connected\": \"no\"\\n    },\\n    {\\n      \"portNumber\": \"3\",\\n      \"portLabel\": \"GE0/0/19A-48D\",\\n      \"connected\": \"yes\"\\n    },\\n    {\\n      \"portNumber\": \"4\",\\n      \"portLabel\": \"GE0/0/20A-57E\",\\n      \"connected\": \"no\"\\n    },\\n    {\\n      \"portNumber\": \"5\",\\n      \"portLabel\": \"SFP10GTX-68F\",\\n      \"connected\": \"yes\"\\n    },\\n    {\\n      \"portNumber\": \"6\",\\n      \"portLabel\": \"GE0/0/23A-49H\",\\n      \"connected\": \"no\"\\n    },\\n    {\\n      \"portNumber\": \"7\",\\n      \"portLabel\": \"SFP10GTX-58I\",\\n      \"connected\": \"yes\"\\n    },\\n    {\\n      \"portNumber\": \"8\",\\n      \"portLabel\": \"GE0/0/24A-60J\",\\n      \"connected\": \"no\"\\n    },\\n    {\\n      \"portNumber\": \"9\",\\n      \"portLabel\": \"SFP10GTX-75K\",\\n      \"connected\": \"yes\"\\n    },\\n    {\\n      \"portNumber\": \"10\",\\n      \"portLabel\": \"GE0/0/26A-48L\",\\n      \"connected\": \"no\"\\n    },\\n    {\\n      \"portNumber\": \"11\",\\n      \"portLabel\": \"SFP10GTX-75K\",\\n      \"connected\": \"yes\"\\n    },\\n    {\\n      \"portNumber\": \"12\",\\n      \"portLabel\": \"GE0/0/34A-69M\",\\n      \"connected\": \"no\"\\n    }\\n  ]\\n}\\n```']"
+  }
+}

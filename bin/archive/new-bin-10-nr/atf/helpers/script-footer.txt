@@ -1,0 +1,7 @@
+
+    # -----SCRIPT-ENDS-----#
+    val = app.run_sripts(LIST_OF_STEPS)
+    print(val)
+
+if __name__ == "__main__":
+    run_script()

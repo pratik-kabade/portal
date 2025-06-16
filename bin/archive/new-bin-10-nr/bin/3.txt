@@ -1,0 +1,11 @@
+# Set the filter condition for alarms
+        # Set Filter Condtion
+        VALUE= 'MGR_SCADA_ALL'
+
+        filter_field = app.find__element('ns__30899058_jsel_div1_toolbar_filterDropDown')
+        filter_field.click()
+
+        filter_field.send_keys(Keys.CONTROL + "a", Keys.BACKSPACE)
+
+        app.driver.execute_script(f"arguments[0].value = '{VALUE}';", filter_field)
+        filter_field.send_keys(Keys.RETURN)

@@ -1,0 +1,35 @@
+{
+  "8-Port Ethernet Switch.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "DIGITUS\"",
+      "INDUSTRIAL 8-PORT",
+      "FAST ETHERNET Switch",
+      "Industrial Ethernet Switch",
+      "POE"
+    ],
+    "ai-overview": [],
+    "port-details": "['| PortNumber | PortLabel   | Connected |\\n|------------|-------------|-----------|\\n| 1          | Link        | Yes       |\\n| 2          | FE          | No        |\\n|            |             |           |\\n| 3-8         | POE         | Not Visible in Image but assumed based on port type and number of Ports.  |']"
+  },
+  "Cisco ASR 920.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "Cuco",
+      "Fitser Stocrage Tray"
+    ],
+    "ai-overview": [],
+    "port-details": "['| PortNumber | PortLabel       | Connected |\\n|------------|-----------------|-----------|\\n| 1          | A               | Yes       |\\n| 2          | B               | Yes       |\\n| 3          | C               | No        |\\n| 4          | D               | No        |\\n| 5          | E               | Yes       |\\n| 6          | F               | Yes       |\\n| 7          | G               | Yes       |\\n| 8          | H               | Yes       |\\n| 9          | I               | Yes       |\\n| 10         | J               | No        |\\n| 11         | K               | No        |\\n| 12         | L               | No        |\\n| 13         | M               | No        |\\n| 14         | N               | Yes       |\\n| 15         | O               | Yes       |\\n| 16         | P               | No        |\\n| 17         | Q               | No        |\\n| 18         | R               | No        |\\n| 19         | S               | Yes       |\\n| 20         | T               | Yes       |\\n| 21         | U               | No        |\\n| 22         | V               | Yes       |\\n| 23         | W               | Yes       |\\n| 24         | X               | No        |\\n| 25         | Y               | No        |\\n| 26         | Z               | Yes       |\\n| 27         | A1              | Yes       |\\n| 28         | B1              | Yes       |\\n| 29         | C1              | No        |\\n| 30         | D1              | No        |\\n| 31         | E1              | Yes       |\\n| 32         | F1              | Yes       |\\n| 33         | G1              | Yes       |\\n| 34         | H1              | Yes       |\\n| 35         | I1              | Yes       |\\n| 36         | J1              | No        |\\n| 37         | K1              | No        |\\n| 38         | L1              | No        |\\n| 39         | M1              | No        |\\n| 40         | N1              | Yes       |\\n| 41         | O1              | Yes       |\\n| 42         | P1              | No        |\\n| 43         | Q1              | No        |\\n| 44         | R1              | No        |\\n| 45         | S1              | Yes       |\\n| 46         | T1              | Yes       |\\n| 47         | U1              | No        |\\n| 48         | V1              | Yes       |\\n| 49         | W1              | Yes       |\\n| 50         | X1              | No        |\\n| 51         | Y1              | No        |\\n| 52         | A2              | Yes       |\\n| 53         | B2              | Yes       |\\n| 54         | C2              | No        |\\n| 55         | D2              | No        |\\n| 56         | E2              | Yes       |\\n| 57         | F2              | Yes       |\\n| 58         | G2              | Yes       |\\n| 59         | H2              | Yes       |\\n| 60         | I2              | No        |\\n| 61         | J2              | No        |\\n| 62         | K2              | No        |\\n| 63         | L2              | No        |\\n| 64         | M2              | Yes       |\\n| 65         | N2              | Yes       |\\n| 66         | O2              | No        |\\n| 67         | P2              | No        |\\n| 68         | Q2              | No        |\\n| 69         | R2              | No        |\\n| 70         | S2              | Yes       |\\n| 71         | T2              | Yes       |\\n| 72         | U2              | No        |\\n| 73         | V2              | Yes       |\\n| 74         | W2              | Yes       |\\n| 75         | X2              | No        |\\n| 76         | Y2              | No        |\\n| 77         | A3              | Yes       |\\n| 78         | B3              | Yes       |\\n| 79         | C3              | No        |\\n| 80         | D3              | No        |\\n| 81         | E3              | Yes       |\\n| 82         | F3              | Yes       |\\n| 83         | G3              | Yes       |\\n| 84         | H3              | Yes       |\\n| 85         | I3              | No        |\\n| 86         | J3              | No        |\\n| 87         | K3              | No        |\\n| 88         | L3              | No        |\\n| 89         | M3              | Yes       |\\n| 90         | N3              | Yes       |\\n| 91         | O3              | No        |\\n| 92         | P3              | No        |\\n| 93         | Q3              | No        |\\n| 94         | R3              | No        |\\n| 95         | S3              | Yes       |\\n| 96         | T3              | Yes       |\\n| 97         | U3              | No        |\\n| 98         | V3              | Yes       |\\n| 99         | W3              | Yes       |\\n| 100        | X3              | No        |\\n| 101        | Y3              | No        |\\n| 102        | A4              | Yes       |\\n| 103        | B4              | Yes       |\\n| 104        | C4              | No        |\\n| 105        | D4              | No        |\\n| 106        | E4              | Yes       |\\n| 107        | F4              | Yes       |\\n| 108        | G4              | Yes       |\\n| 109        | H4              | Yes       |\\n| 110        | I4              | No        |\\n| 111        | J4              | No        |\\n|']"
+  }
+}

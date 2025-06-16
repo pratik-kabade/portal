@@ -1,0 +1,35 @@
+{
+  "8-Port Ethernet Switch.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "DIGITUS\"",
+      "INDUSTRIAL 8-PORT",
+      "FAST ETHERNET Switch",
+      "Industrial Ethernet Switch",
+      "POE"
+    ],
+    "ai-overview": [],
+    "port-details": "['| PortNumber | PortLabel         | Connected |\\n|------------|-------------------|-----------|\\n| 1          | USB-A             | Yes       |\\n| 2          | HDMI              | No        |\\n| 3          | DisplayPort       | Yes       |\\n| 4          | VGA               | No        |\\n| 5          | Ethernet (LAN)    | Yes       |\\n| 6          | Power             | Yes       |']"
+  },
+  "Cisco ASR 920.png": {
+    "devices": [],
+    "location": [
+      "e",
+      "",
+      ""
+    ],
+    "tags": [],
+    "metadata": [
+      "Cuco",
+      "Fitser Stocrage Tray"
+    ],
+    "ai-overview": [],
+    "port-details": "['| PortNumber | PortLabel        | Connected |\\n|------------|------------------|-----------|\\n|      1     | Modem            |   Yes     |\\n|      2     | Ethernet         |   No      |\\n|      3    \\n| Wireless LAN    |   Yes           | \\n|      4     | USB              |   Yes     |\\n|      5    \\n| Firewire (IEEE1394)   |   Yes           |  \\n|      6    \\n| Parallel Port      |   No             |  \\n|      7    \\n| Serial Port        |   No            | \\n|      8    \\n| USB               |   Yes           | \\n|      9    \\n| HDMI              |   Yes           |   \\n|      10    \\n| DisplayPort      |   No            | \\n|      11    \\n| VGA                |   Yes           | \\n|      12    \\n| DVI                   |   Yes           | \\n|      13    \\n| Audio Jack          |   Yes           |   \\n|        ...         |  ...            |\\n(Note: The above table is an example; the actual output may differ based on the image provided.)']"
+  }
+}

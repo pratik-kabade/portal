@@ -1,0 +1,46 @@
+{
+  "7.png": {
+    "devices": [
+      "4219-SWCH-01"
+    ],
+    "location": [
+      "a",
+      "4219"
+    ],
+    "tags": [],
+    "metadata": [
+      "4219-SWCH-01",
+      "DLink"
+    ]
+  },
+  "6.png": {
+    "devices": [
+      "4219-ACCR-01"
+    ],
+    "location": [
+      "a",
+      "4219"
+    ],
+    "tags": [],
+    "metadata": [
+      "6",
+      "4219-ACCR-01",
+      "Cisco"
+    ]
+  },
+  "8.png": {
+    "devices": [
+      "4220-SWCH-01"
+    ],
+    "location": [
+      "b",
+      "4220"
+    ],
+    "tags": [],
+    "metadata": [
+      "4220-SWCH-01",
+      "8",
+      "DLink"
+    ]
+  }
+}

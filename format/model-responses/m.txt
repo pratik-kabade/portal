@@ -1,0 +1,127 @@
+| PortNumber | PortLabel   | Connected |
+|------------|-------------|-----------|
+| 1          | Link        | Yes       |
+| 2          | FE          | No        |
+|            |             |           |
+| 3-8         | POE         | Not Visible in Image but assumed based on port type and number of Ports.  |
+
+
+
+
+
+
+
+| PortNumber | PortLabel       | Connected |
+|------------|-----------------|-----------|
+| 1          | A               | Yes       |
+| 2          | B               | Yes       |
+| 3          | C               | No        |
+| 4          | D               | No        |
+| 5          | E               | Yes       |
+| 6          | F               | Yes       |
+| 7          | G               | Yes       |
+| 8          | H               | Yes       |
+| 9          | I               | Yes       |
+| 10         | J               | No        |
+| 11         | K               | No        |
+| 12         | L               | No        |
+| 13         | M               | No        |
+| 14         | N               | Yes       |
+| 15         | O               | Yes       |
+| 16         | P               | No        |
+| 17         | Q               | No        |
+| 18         | R               | No        |
+| 19         | S               | Yes       |
+| 20         | T               | Yes       |
+| 21         | U               | No        |
+| 22         | V               | Yes       |
+| 23         | W               | Yes       |
+| 24         | X               | No        |
+| 25         | Y               | No        |
+| 26         | Z               | Yes       |
+| 27         | A1              | Yes       |
+| 28         | B1              | Yes       |
+| 29         | C1              | No        |
+| 30         | D1              | No        |
+| 31         | E1              | Yes       |
+| 32         | F1              | Yes       |
+| 33         | G1              | Yes       |
+| 34         | H1              | Yes       |
+| 35         | I1              | Yes       |
+| 36         | J1              | No        |
+| 37         | K1              | No        |
+| 38         | L1              | No        |
+| 39         | M1              | No        |
+| 40         | N1              | Yes       |
+| 41         | O1              | Yes       |
+| 42         | P1              | No        |
+| 43         | Q1              | No        |
+| 44         | R1              | No        |
+| 45         | S1              | Yes       |
+| 46         | T1              | Yes       |
+| 47         | U1              | No        |
+| 48         | V1              | Yes       |
+| 49         | W1              | Yes       |
+| 50         | X1              | No        |
+| 51         | Y1              | No        |
+| 52         | A2              | Yes       |
+| 53         | B2              | Yes       |
+| 54         | C2              | No        |
+| 55         | D2              | No        |
+| 56         | E2              | Yes       |
+| 57         | F2              | Yes       |
+| 58         | G2              | Yes       |
+| 59         | H2              | Yes       |
+| 60         | I2              | No        |
+| 61         | J2              | No        |
+| 62         | K2              | No        |
+| 63         | L2              | No        |
+| 64         | M2              | Yes       |
+| 65         | N2              | Yes       |
+| 66         | O2              | No        |
+| 67         | P2              | No        |
+| 68         | Q2              | No        |
+| 69         | R2              | No        |
+| 70         | S2              | Yes       |
+| 71         | T2              | Yes       |
+| 72         | U2              | No        |
+| 73         | V2              | Yes       |
+| 74         | W2              | Yes       |
+| 75         | X2              | No        |
+| 76         | Y2              | No        |
+| 77         | A3              | Yes       |
+| 78         | B3              | Yes       |
+| 79         | C3              | No        |
+| 80         | D3              | No        |
+| 81         | E3              | Yes       |
+| 82         | F3              | Yes       |
+| 83         | G3              | Yes       |
+| 84         | H3              | Yes       |
+| 85         | I3              | No        |
+| 86         | J3              | No        |
+| 87         | K3              | No        |
+| 88         | L3              | No        |
+| 89         | M3              | Yes       |
+| 90         | N3              | Yes       |
+| 91         | O3              | No        |
+| 92         | P3              | No        |
+| 93         | Q3              | No        |
+| 94         | R3              | No        |
+| 95         | S3              | Yes       |
+| 96         | T3              | Yes       |
+| 97         | U3              | No        |
+| 98         | V3              | Yes       |
+| 99         | W3              | Yes       |
+| 100        | X3              | No        |
+| 101        | Y3              | No        |
+| 102        | A4              | Yes       |
+| 103        | B4              | Yes       |
+| 104        | C4              | No        |
+| 105        | D4              | No        |
+| 106        | E4              | Yes       |
+| 107        | F4              | Yes       |
+| 108        | G4              | Yes       |
+| 109        | H4              | Yes       |
+| 110        | I4              | No        |
+| 111        | J4              | No        |
+|

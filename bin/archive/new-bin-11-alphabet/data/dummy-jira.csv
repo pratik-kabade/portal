@@ -1,0 +1,11 @@
+Bug ID,Title,Component,Date Created,Date Requested,Date Received,Description
+BUG-001,Login Error,Authentication,2023-03-01,2023-03-02,2023-03-03,"Issue observed: Error when user logs in with valid credentials; Steps to reproduce: Enter valid credentials and click login; Expected result: User is logged in successfully."
+BUG-002,Dashboard Not Loading,Dashboard,2023-03-04,2023-03-05,2023-03-06,"Issue observed: Dashboard page remains blank; Steps to reproduce: Login and navigate to dashboard; Expected result: Dashboard displays user data."
+BUG-003,Incorrect Error Message,Notifications,2023-03-07,2023-03-08,2023-03-09,"Issue observed: Displays wrong error message on network failure; Steps to reproduce: Disconnect network during operation; Expected result: Correct error message is shown."
+BUG-004,Crash on File Upload,File Manager,2023-03-10,2023-03-11,2023-03-12,"Issue observed: ; Steps to reproduce: ; Expected result: ;"
+BUG-005,Slow Response Time,Performance,2023-03-13,2023-03-14,2023-03-15,"Issue observed: Application slows down during peak hours; Steps to reproduce: Use app during high traffic periods; Expected result: Application maintains optimal speed."
+BUG-006,Broken Link,UI,2023-03-16,2023-03-17,2023-03-18,"Issue observed: Help link on support page is broken; Steps to reproduce: Click on help link; Expected result: Link redirects to support page."
+BUG-007,Data Sync Failure,Sync Module,2023-03-19,2023-03-20,2023-03-21,"Issue observed: ; Steps to reproduce: ; Expected result: ;"
+BUG-008,Unexpected Logout,Session Management,2023-03-22,2023-03-23,2023-03-24,"Issue observed: Users are logged out unexpectedly; Steps to reproduce: Remain inactive for a period then resume activity; Expected result: Session remains active until manually logged out."
+BUG-009,Email Notification Not Sent,Notifications,2023-03-25,2023-03-26,2023-03-27,"Issue observed: Email notifications fail for some users; Steps to reproduce: Trigger email notification in app; Expected result: Email is sent to all intended recipients."
+BUG-010,Search Functionality Error,Search,2023-03-28,2023-03-29,2023-03-30,"Issue observed: ; Steps to reproduce: ; Expected result: ;"

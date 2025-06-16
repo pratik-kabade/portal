@@ -1,0 +1,53 @@
+{
+    "img1.png": {
+        "devices": [
+            "device1",
+            "device2"
+        ],
+        "location": [
+            "folder-name",
+            "possible location name from image"
+        ],
+        "tags": [
+            "cisco",
+            "router"
+        ],
+        "metadata": [
+            "all the text found from image"
+        ]
+    },
+    "img2.png": {
+        "devices": [
+            "device3"
+        ],
+        "location": [
+            "folder-name",
+            "possible location name from image"
+        ],
+        "tags": [
+            "cisco",
+            "switch"
+        ],
+        "metadata": [
+            "all the text found from image"
+        ]
+    },
+    "img3.png": {
+        "devices": [
+            "device1",
+            "device6"
+        ],
+        "location": [
+            "folder-name",
+            "possible location name from image"
+        ],
+        "tags": [
+            "ap-link",
+            "firewall"
+        ],
+        "metadata": [
+            "all the text found from image"
+        ]
+    }
+}
+ 

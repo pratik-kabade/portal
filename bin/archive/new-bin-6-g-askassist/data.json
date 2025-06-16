@@ -1,0 +1,195 @@
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+    "id": "10382",
+    "self": "https://iotpegenai.atlassian.net/rest/api/3/issue/10382",
+    "key": "RDKB-370",
+    "fields": {
+        "statuscategorychangedate": "2024-10-10T17:07:17.045+0530",
+        "issuetype": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/issuetype/10003",
+            "id": "10003",
+            "description": "Stories track functionality or features expressed as user goals.",
+            "iconUrl": "https://iotpegenai.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+            "name": "Story",
+            "subtask": false,
+            "avatarId": 10315,
+            "entityId": "56706105-af46-4ad8-b86a-73851ba506a2",
+            "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "project": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/project/10000",
+            "id": "10000",
+            "key": "RDKB",
+            "name": "RDK Broadband",
+            "projectTypeKey": "software",
+            "simplified": true,
+            "avatarUrls": {
+                "48x48": "https://iotpegenai.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400",
+                "24x24": "https://iotpegenai.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=small",
+                "16x16": "https://iotpegenai.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=xsmall",
+                "32x32": "https://iotpegenai.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10400?size=medium"
+            }
+        },
+        "fixVersions": [],
+        "customfield_10033": null,
+        "aggregatetimespent": null,
+        "customfield_10034": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/issue/RDKB-370/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "issuerestriction": {
+            "issuerestrictions": {},
+            "shouldDisplay": true
+        },
+        "lastViewed": "2024-10-10T17:07:29.617+0530",
+        "created": "2024-10-10T17:07:16.724+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://iotpegenai.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": null,
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+            "hasEpicLinkFieldDependency": false,
+            "showField": false,
+            "nonEditableReason": {
+                "reason": "EPIC_LINK_SHOULD_BE_USED",
+                "message": "To set an epic as the parent, use the epic link instead"
+            }
+        },
+        "customfield_10019": "0|i002a7:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/user?accountId=60066af2afda13006e996048",
+            "accountId": "60066af2afda13006e996048",
+            "emailAddress": "anurag.agr@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "24x24": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "16x16": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "32x32": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png"
+            },
+            "displayName": "Anurag Agarwal",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "updated": "2024-10-10T17:07:17.081+0530",
+        "status": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://iotpegenai.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+                "self": "https://iotpegenai.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "timetracking": {},
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "attachment": [],
+        "summary": "test story",
+        "creator": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/user?accountId=60066af2afda13006e996048",
+            "accountId": "60066af2afda13006e996048",
+            "emailAddress": "anurag.agr@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "24x24": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "16x16": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "32x32": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png"
+            },
+            "displayName": "Anurag Agarwal",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/user?accountId=60066af2afda13006e996048",
+            "accountId": "60066af2afda13006e996048",
+            "emailAddress": "anurag.agr@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "24x24": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "16x16": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png",
+                "32x32": "https://secure.gravatar.com/avatar/5798ad0c63b49b466eaf2b2c90814c70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-4.png"
+            },
+            "displayName": "Anurag Agarwal",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/issue/RDKB-370/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "comment": {
+            "comments": [],
+            "self": "https://iotpegenai.atlassian.net/rest/api/3/issue/10382/comment",
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": []
+        }
+    }
+}

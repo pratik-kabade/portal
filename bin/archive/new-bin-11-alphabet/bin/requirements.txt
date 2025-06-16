@@ -1,0 +1,4 @@
+llama-index-embeddings-huggingface
+llama_index.llms.ollama 
+llama_parse
+llama_index

@@ -1,0 +1,20 @@
+# Verify the Memory usage.
+        app.slow_down(5)
+
+        # Declare file
+        app.write_results('False')
+
+        # Replace with your target host information
+        hostname = "10.16.2.102"
+        username = "netcool"
+        password = r"Up!"
+
+        # Commands to check CPU, disk, and memory usage
+        commands = ["free -m"]
+
+        # Specify the output file
+        output_file = f"{app.base_path}/cmd-output.txt"
+
+        # Run the command and save output to the file
+        result = app.run_remote_commands(hostname, username, password, commands, output_file)
+        app.write_results("Putty Logs:\n\n\n" + result)

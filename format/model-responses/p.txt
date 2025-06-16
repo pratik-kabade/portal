@@ -1,0 +1,40 @@
+| PortNumber | PortLabel         | Connected |
+|------------|-------------------|-----------|
+| 1          | USB-A             | Yes       |
+| 2          | HDMI              | No        |
+| 3          | DisplayPort       | Yes       |
+| 4          | VGA               | No        |
+| 5          | Ethernet (LAN)    | Yes       |
+| 6          | Power             | Yes       |'
+
+
+
+
+
+| PortNumber | PortLabel        | Connected |
+|------------|------------------|-----------|
+|      1     | Modem            |   Yes     |
+|      2     | Ethernet         |   No      |
+|      3    
+| Wireless LAN    |   Yes           | 
+|      4     | USB              |   Yes     |
+|      5    
+| Firewire (IEEE1394)   |   Yes           |  
+|      6    
+| Parallel Port      |   No             |  
+|      7    
+| Serial Port        |   No            | 
+|      8    
+| USB               |   Yes           | 
+|      9    
+| HDMI              |   Yes           |   
+|      10    
+| DisplayPort      |   No            | 
+|      11    
+| VGA                |   Yes           | 
+|      12    
+| DVI                   |   Yes           | 
+|      13    
+| Audio Jack          |   Yes           |   
+|        ...         |  ...            |
+(Note: The above table is an example; the actual output may differ based on the image provided.)

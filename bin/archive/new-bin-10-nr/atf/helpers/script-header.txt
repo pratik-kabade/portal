@@ -1,0 +1,14 @@
+# SCRIPT_NAME
+# TEST_STEPS
+
+from selenium.webdriver.common.keys import Keys
+from Script_Runner import Script_Runner
+from selenium.webdriver.common.by import By
+
+
+def run_script():
+    script_num=SCRIPT_NUM
+    app = Script_Runner('APP_NAME', script_num, gui=True)
+
+    # -----SCRIPT-STARTS-----#
+    

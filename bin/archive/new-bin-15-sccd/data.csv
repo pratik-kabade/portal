@@ -1,0 +1,61 @@
+ticketid,category,description,Resolution,,
+TT1000485,LEGACY OPS,Manchester Tower Block reporting Crows Nest Hawk charger battery requires attention,replaced charger,,
+TT1000534,IP,NRT Firewall Change Request,Added both computers in policy number 6 on FTN-DID-ASA.corp.ukrail.net and policy number 25 on FTN-SOK-ASA.corp.ukrail.net,,
+TT1000576,LEGACY OPS,CLEAR - Kilfedder ETA home 19:30 = downside telephone replaced,"downside telephone faulty -telephone replaced tmth -b120849 -teltfi001 n1,2,d1-d8 --tester M Killfedder",,
+TT1000582,GSMR,CC GSM  - 6Z82 Mis-routed call,NT3477B had been loaded onto the OMCR to add BTS neighbour relation between 2162 and 2163 . Please put back under monitor/testing to see if problem has been resolved .,,
+TT1000601,GSMR,Failed Rex test - Stoke MSC,Auto rex test complete. Test passed. Alarm cleared,,
+TT1000610,,3158 1640_01 slot 3 - Inside failure alarm,P4S1N card replaced,,
+TT1000665,IP,OSPF issue caused by insertion of Potteric Carr,"The
+resolution for the fault is to set the router-id of YRKC-SBAM-02 to the new
+interface address, 10.60.1.138.
+
+! ospf
+process 1 has used 10.60.1.138 as its router-id, this router-id is required for
+process 121 vrf ECML-PSU, this can be seen in show ip ospf 1 
+
+no router
+ospf 1 vrf ECML-PSU
+
+!
+
+! Modify
+the router-id to 10.60.1.138
+
+router
+ospf 121 vrf ECML-PSU
+
+router-id
+10.60.1.138
+
+! this
+will bring up error message: % OSPF: Reload or use &quot;clear ip ospf
+process&quot; command, for this to take effect
+
+! Now
+clear the ospf process to re-initialize with the correct resolvable router-id
+
+Do clear ip
+ospf 121 process　　　　　　　 ! from global configuration mode, re-initialize
+the ospf process.
+
+! Answer
+yes when asked if the ospf process should be reset
+
+Reset OSPF
+process 121? [no]: yes　　　　　　　　　　　 
+
+For
+reference, unused ospf process 1 has used router-id 10.60.1.138, which needs to
+be removed.
+
+YRKC-SBAM-02#sh
+ip ospf statistics
+
+　　　　　　　　　　　 OSPF Router with ID (10.60.1.138) (Process ID 1)",,
+TT1000672,IP,FTNx Access - Uni-Directional Pseudowire @ 5259-ACCR-01,spoke to Grant and offered to reboot the router as a matter of course as they have been up for over 4 years without a reboot but it was decided against at this point.,,
+TT1000709,GSMR,CC GSM intermittently losing signal Barnstaple Station,Sandra Baulo has arranged for an antenna swap following discussion with RF Design team.This is now fitted and RTC data suggests situation is improved.  Confirmation from GWR that drivers are not seeing issues registering at Barnstaple station.  ,,
+TT1000736,GSMR,CC GSM'Ghost Calls',In Both cases ScotRail Control sent a pre-defined Contact Message 80-01-07 to 2B79 At around 8:40 both days..  I suspect the previous driver removed the driver key and didn't retain registration as we see a deregistration at 8:45 both days When New Driver switched on the unacknowledged messages would have been displayed (Contact ScotRail Control)  normal behavior  If this is not the case then we would require the Dicora Logs   9106985723.10.2019 08:39:33889086507404001223110358301008C0B8576D760163InIn18305400005064074040410F28001070911C14D8DBDD14985A5B0810DBDB9D1C9BDB0AA9106985623.10.2019 08:39:33889086547404001223110358301408C0B8576D760163OutOut0320000005064074040410F28001070911C14D8DBDD14985A5B0810DBDB9D1C9BDB0AA 2019-10-23 08:39:32.992 206 616 Rutherglen 2019-10-23 08:39:38.550 206 616 Rutherglen 5.558 2447032  234131173596708 445555873596  35214500009248 Sagem MRM TDMA G1-TS GSM 8W / DCS 0.25W 8890865 00445555873596 2019-10-22 08:38:14.552 206 616 Rutherglen 2019-10-22 08:38:20.774 206 616 Rutherglen 6.222 24466c0  234131173670785 445555873670  35214500009251 Sagem MRM TDMA G1-TS GSM 8W / DCS 0.25W 8890865 00445555873670     9094175122.10.2019 08:38:15889086507404001223110358301008BFB802F9E60163InIn18305200005064074040410F28001070911C14D8DBDD14985A5B0810DBDB9D1C9BDB0AA9094175022.10.2019 08:38:15889086547404001223110358301408BFB802F9E60163OutOut0320000005064074040410F28001070911C14D8DBDD14985A5B0810DBDB9D1C9BDB0AA ,,
+TT1000747,GSMR,"DIDC OMCR : Command ""df -h"" hangs",28/11/19 We modified the OMCR firewall at Stoke OMCR to allow incomming NFS traffic . Tests were done and the issue has now been resolved . ,,
+TT1000755,TELEPHONY,Mantle Lane vor - no remote connection,vor reset. retested ok by PMC,,
+TT1000759,GSMR,iLO Access for d-appl[1-6] not working,updated all application servers with the default gateway of 10.32.x.250,,
+TT1000769,GSMR,Qats abis system,Abis capture now working,,

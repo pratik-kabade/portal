@@ -1,0 +1,43 @@
+# Verify the FirstOccurrence and LastOccurrence field
+        app.slow_down(5)
+        app.save_screenshot()
+
+        select_all_button = app.find__element('ns__30899058_jsel_div1_toolbar_selectAllButton')
+        select_all_button.click()
+        app.slow_down(5)
+        select_all_button.send_keys(Keys.CONTROL, 'c')
+
+        # Get the copied text from the clipboard
+        copied_text = pyperclip.paste()
+
+        # Split the copied text into lines
+        lines = copied_text.strip().split('\n')
+
+        # Split each line into fields based on tabs or other delimiters
+        rows = [line.split('\t') for line in lines]
+
+        # Write the data to a CSV file
+        output_path = f"{app.base_path}/output.csv"
+        with open(output_path, mode='w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerows(rows)
+
+        # Extract headers and rows
+        headers = lines[0].split('\t')
+        rows = [line.split('\t') for line in lines[1:]]
+
+        # Declare file
+        app.write_results('False')
+
+        # Check FirstOccurrence and LastOccurrence for the top 5 rows
+        def validate_occurrences(rows):
+            for row in rows[:5]:  # Limit to top 5 rows
+                first_occurrence = row[headers.index("FirstOccurrence")].strip()
+                last_occurrence = row[headers.index("LastOccurrence")].strip()
+                if not first_occurrence or not last_occurrence:
+                    return False  # Return false if any field is empty
+            return True  # Return true if all fields are non-empty
+
+        # Validate the top 5 rows
+        result = validate_occurrences(rows)
+        app.write_results(result)

@@ -1,0 +1,3 @@
+# Replay the Captured alarms
+        app.slow_down(1)
+        pass

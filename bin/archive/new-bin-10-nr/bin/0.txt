@@ -1,0 +1,30 @@
+# Open the Event Viewer
+        app.driver.get("https://didv03lx328:16311/ibm/console/logon.jsp")
+        
+        security_details=app.find__element('details-button')
+        security_details.click()
+        security_link=app.find__element('proceed-link')
+        security_link.click()
+
+        username_field = app.find__element("j_username")
+        username_field.send_keys("smadmin")
+        password_field = app.find__element("j_password")
+        password_field.send_keys("smadmin")
+
+        password_field = app.find__element("j_password")
+        password_field.send_keys(Keys.RETURN)
+
+        # Bypass existing login session
+        try:
+            force_login_button = app.find__element('submitBtn', by='name')
+            force_login_button.click()
+        except:
+            pass
+
+        open_menu=app.find__element("com.ibm.sysmgmt.common.task.groups.node.incident.788c805711_button_id")
+        open_menu.click()
+        event_viewer_button=app.find__element("dojoUnique70")
+        event_viewer_button.click()
+        app.slow_down(5)
+        app.switch_iframe()
+        app.slow_down(1)

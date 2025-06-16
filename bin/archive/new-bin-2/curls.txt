@@ -1,0 +1,99 @@
+0. curl -X GET "http://localhost:5000/api/files/admin"
+curl -X GET "http://localhost:5000/api/jira/projects/"
+curl -X GET "http://localhost:5000/api/jira/userstory/CTTA"
+curl -X GET "http://localhost:5000/api/projects/admin"
+
+curl -X POST -H "Content-Type: application/json" -d '{ "title": "zxcv", "description": "testing", "jiraproject": "mnbv" }' http://localhost:5000/api/projects/admin
+
+ask testscript api-->
+
+1. asktestscript api   --> curl -X POST -H "Content-Type: application/json" -d '{"question" : "As a network engineer, how to enable the beacon mode for an Ethernet port to flash its LED to confirm its physical location for cisco configuration guide cli commands","language":"python","tc_id":"74125"}' http://localhost:5000/api/ask/tm/testscripts
+
+
+ask testcase api-->
+
+2. asktestcase  -->curl -X POST -H "Content-Type: application/json" -d '{ "question": "As a system admin, I shall be able to verify the status and configuration of WiFI ssid as demo1 using dmcli commands", "user": "admin", "project": "10572" }' http://localhost:5000/api/ask/tm/testcases
+
+curl -X POST -H "Content-Type: application/json" -d '{ "question": "Explain live streaming with TSB using RDK , which is the software that helps run video, broadband, and IoT devices more efficiently by standardizing the software stacks that run on most TV set-top boxes, internet gateways, and IoT devices in the home.", "user": "admin", "project": "92762" }' http://localhost:5000/api/ask/tm/testcases
+
+
+
+Ask api-->
+
+3. curl -X POST -H "Content-Type: application/json" -d '{"question" : "As a system admin, I shall be able to verify the status and configuration of WiFI ssid as demo1 using dmcli commands", "project_name" : "RDK-B"}' http://localhost:5000/api/ask
+
+curl -X POST -H "Content-Type: application/json" -d '{"question" : "what time is it", "project_name" : "Project1"}' http://localhost:5000/api/ask
+
+curl -X POST -H "Content-Type: application/json" -d '{"question" : "As a system admin, I shall be able to    verify status and configuration of WiFI ssid as demo1 using dmcli commands", "project_name" : "Project1"}' http://localhost:5000/api/ask
+
+curl -X POST -H "Content-Type: application/json" -d '{"question" : "Hi , how are you?", "project_name" : "Project1"}' http://localhost:5000/api/ask
+
+curl -X POST -H "Content-Type: application/json" -d '{"question" : "So can you tell me anything about telecom sector?", "project_name" : "Project1"}' http://localhost:5000/api/ask
+
+curl -X POST -H "Content-Type: application/json" -d '{"title" : "Curl-3", "description" : "t1", "jiraProjectKey": "10001", "jiraProjectName" : "CPE Team Testing AI"}' http://localhost:5000/api/projects/admin
+
+Explain live streaming with TSB using rdk documentation?
+
+curl -X POST -H "Content-Type: application/json" -d '{"question" : "Explain live streaming with TSB using rdk documentation?", "project_name" : "Project1"}' http://localhost:5000/api/ask
+
+4.curl -X POST -H "Content-Type: application/json" -d '{"script_content": "print(\"Hello from the API with entire script\")"}' http://localhost:5000/execute
+
+curl -X POST -H "Content-Type: application/json" -d '{"project": "Cisco", files}' http://localhost:5000/execute
+
+As a system admin, I shall be able to enable IPv6 support with ip-mode as V4-prefer and configure radius over ipv6 for Aruba instant 8.12.0 AP Configuration using CLI commands
+
+curl -X POST -H "Content-Type: application/json" -d '{"question" : "As a system admin, I shall be able to enable IPv6 support with ip-mode as V4-prefer and configure radius over ipv6 for Aruba instant 8.12.0 AP Configuration using CLI commands", "project_name" : "Cisco"}' http://localhost:5000/api/ask
+
+curl -X POST -H "Content-Type: application/json" -d '{ "question": "As a system admin, I shall be able to enable IPv6 support with ip-mode as V4-prefer and configure radius over ipv6 for Aruba instant 8.12.0 AP Configuration using CLI commands", "user": "admin", "project": "14671" }' http://localhost:5000/api/ask/tm/testcases
+
+5. curl -X POST -H "Content-Type: application/json" -d '{"summary" : "abc", "teststeps" : "xyz", "userstory" : "qwerty", "jira_project_key" : "RDKB", "tc_id" : "1000"}' http://localhost:5000/api/jira
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"script_content": "from collections import Counter\n\ndef count_characters(word):\n    \"\"\"Count the frequency of each character in the word.\"\"\"\n    return Counter(word)\n\ndef main():\n    word = \"example\"\n    frequency = count_characters(word)\n    print(frequency)\n\nif __name__ == \"__main__\":\n    main()\n"}' http://localhost:5000/execute
+
+curl -X POST -H "Content-Type: application/json" -d '{"script_content": "import paramiko\n\ndef run_ssh_command(hostname, username, password, commands, status):    \n    try:\n        output = \"\"\n        # Create an SSH client\n        client = paramiko.SSHClient()\n\n        # Set missing host key policy to auto-add for new hosts (optional, adjust based on security practices)\n        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())\n\n        # Connect to the server\n        client.connect(hostname=hostname, username=username, password=password)\n\n        for command in commands:\n            stdin, stdout, stderr = client.exec_command(command)\n            res = stdout.read().decode()\n            if \"Cmd exec error.\" in res:\n                status.append(\"fail\")\n            else:\n                status.append(\"success\")\n            output += res\n\n        # Disconnect from the server\n        client.close()\n\n        return output\n\n    except paramiko.SSHException as e:\n        return f\"SSH connection error: {e}\"\n\nif __name__ == \"__main__\":\n    hostname = \"sbx-nxos-mgmt.cisco.com\"\n    username = \"admin\"\n    password = \"Admin_1234!\"\n    \n    commands = [\"show interface\", \"show run\", \"config t\"]\n    status = []\n\n    result = run_ssh_command(hostname, username, password, commands, status)\n    print(result)\n    print(status)"}' http://localhost:5000/execute
+
+curl -X POST -H "Content-Type: application/json" -d "{\"script_content\": \"import numpy as np\\n\\n\\ndef generate_data(size):\\n    return np.random.rand(size)\\n\\n\\ndef compute_statistics(data):\\n    return {\\n        'mean': np.mean(data),\\n        'std_dev': np.std(data),\\n        'min': np.min(data),\\n        'max': np.max(data)\\n    }\\n\\n\\ndef main():\\n    data = generate_data(1000)\\n    stats = compute_statistics(data)\\n    print(stats)\\n\\n\\nif __name__ == '__main__':\\n    main()\\n\"}" http://127.0.0.1:5000/execute
+
+curl -X POST -H "Content-Type: application/json" -d "{\"script_content\": \"import matplotlib.pyplot as plt\nimport numpy as np\n\ndef generate_plot():\n    x = np.linspace(0, 10, 100)\n    y = np.sin(x)\n\n    plt.figure()\n    plt.plot(x, y)\n    plt.title('Sine Wave')\n    plt.xlabel('x')\n    plt.ylabel('sin(x)')\n    plt.savefig('sine_wave.png')\n\ndef main():\n    generate_plot()\n    print('Plot saved as sine_wave.png')\n\nif __name__ == '__main__':\n    main()\n\"}" http://127.0.0.1:5000/api/execute
+
+curl -X POST -H "Content-Type: application/json" -d "{\"script_content\": \"from sqlalchemy import create_engine, Column, Integer, String, Sequence\\nfrom sqlalchemy.ext.declarative import declarative_base\\nfrom sqlalchemy.orm import sessionmaker\\n\\nBase = declarative_base()\\n\\nclass User(Base):\\n    __tablename__ = 'users'\\n    id = Column(Integer, Sequence('user_id_seq'), primary_key=True)\\n    name = Column(String(50))\\n    age = Column(Integer)\\n\\ndef main():\\n    engine = create_engine('sqlite:///:memory:')\\n    Base.metadata.create_all(engine)\\n    Session = sessionmaker(bind=engine)\\n    session = Session()\\n    new_user = User(name='John Doe', age=30)\\n    session.add(new_user)\\n    session.commit()\\n    for user in session.query(User).all():\\n        print(f'User: {user.name}, Age: {user.age}')\\n\\nif __name__ == '__main__':\\n    main()\\n\"}" http://127.0.0.1:5000/execute
+
+curl -X POST -H "Content-Type: application/json" -d "{\"script_content\": \"import networkx as nx\\n\\ndef create_graph():\\n    G = nx.Graph()\\n    G.add_edges_from([(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)])\\n    return G\\n\\ndef find_shortest_path(G, source, target):\\n    return nx.shortest_path(G, source=source, target=target)\\n\\ndef main():\\n    G = create_graph()\\n    path = find_shortest_path(G, 1, 5)\\n    print(f'Shortest path: {path}')\\n\\nif __name__ == '__main__':\\n    main()\\n\"}" http://127.0.0.1:5000/execute
+
+curl -X POST -H "Content-Type: application/json" -d "{\"script_content\": \"import requests\\nfrom bs4 import BeautifulSoup\\n\\ndef scrape_title(url):\\n    response = requests.get(url)\\n    soup = BeautifulSoup(response.content, 'html.parser')\\n    return soup.title.string\\n\\ndef main():\\n    url = 'https://www.example.com'\\n    title = scrape_title(url)\\n    print(f'Title: {title}')\\n\\nif __name__ == '__main__':\\n    main()\\n\"}" http://127.0.0.1:5000/execute
+
+curl -X POST -H "Content-Type: application/json" -d "{\"script_content\": \"from sklearn.datasets import make_regression\\nfrom sklearn.linear_model import LinearRegression\\nfrom sklearn.model_selection import train_test_split\\nfrom sklearn.metrics import mean_squared_error\\nimport numpy as np\\n\\ndef train_model():\\n    X, y = make_regression(n_samples=100, n_features=1, noise=0.1)\\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\\n    model = LinearRegression()\\n    model.fit(X_train, y_train)\\n    y_pred = model.predict(X_test)\\n    mse = mean_squared_error(y_test, y_pred)\\n    return mse\\n\\ndef main():\\n    mse = train_model()\\n    print(f'Mean Squared Error: {mse}')\\n\\nif __name__ == '__main__':\\n    main()\\n\"}" http://127.0.0.1:5000/execute
+
+--------------------------------------------------------------------------
+
+result = DBUtil.getDocumentByKeyValue(db,"projects","_id",projectID)
+print(result)
+projectname = result[0]['title']
+
+
+
+instance = LlamaIndexManager.clsLlamaIndexManager.get_instance()
+queryengine = instance.getQueryEngine(projectname)
+response = queryengine.query(mainPrompt)
+
+
+
+tc_record_update = {"_id" : tc_id,"testscript" : str(response),"projectname": projectname,"ts_jira" : "","language" : language,"updatedate" :
+datetime.utcnow()} DBUtil.createOrUpdate(db,"testcases",tc_record_update) answer = {'answer' : str(response)}
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"testcase": "Testcase-01: Run '\''show interface'\'' in Cisco DevNet\nPreconditions:\n1. Login into Cisco DevNet using SSH\n2. Then run command '\''show interface'\''.", "script_content": "import paramiko\n\ndef run_ssh_command(hostname, username, password, commands, status):\n    try:\n        output = \"\"\n        # Create an SSH client\n        client = paramiko.SSHClient()\n\n        # Set missing host key policy to auto-add for new hosts (optional, adjust based on security practices)\n        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())\n\n        # Connect to the server\n        client.connect(hostname=hostname, username=username, password=password)\n\n        for command in commands:\n            stdin, stdout, stderr = client.exec_command(command)\n            res = stdout.read().decode()\n            if \"Cmd exec error.\" in res:\n                status.append(\"fail\")\n            else:\n                status.append(\"success\")\n            output += res\n\n        # Disconnect from the server\n        client.close()\n\n        return output\n\n    except paramiko.SSHException as e:\n        return f\"SSH connection error: {e}\"\n\nif __name__ == \"__main__\":\n    hostname = \"sbx-nxos-mgmt.cisco.com\"\n    username = \"admin\"\n    password = \"Admin_1234!\"\n    commands = [\"show interface\"]\n    status = []\n    result = run_ssh_command(hostname, username, password, commands, status)\n    print(result)","output": "Syntax error while parsing '\''show interfacesqq'\''\nCmd exec error."}'
+http://localhost:5000/api/tsoutput
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"testcase": "Testcase-01: Run show interface in cisso dev net\nPreconditions:\n1. Login into cisco dev net using ssh\n2. then run command show interface.\n", "script_content": "import paramiko\n\ndef run_ssh_command(hostname, username, password, commands, status):    \n    try:\n        output = \"\"\n        # Create an SSH client\n        client = paramiko.SSHClient()\n\n        # Set missing host key policy to auto-add for new hosts (optional, adjust based on security practices)\n        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())\n\n        # Connect to the server\n        client.connect(hostname=hostname, username=username, password=password)\n\n        for command in commands:\n            stdin, stdout, stderr = client.exec_command(command)\n            res = stdout.read().decode()\n            if \"Cmd exec error.\" in res:\n                status.append(\"fail\")\n            else:\n                status.append(\"success\")\n            output += res\n\n        # Disconnect from the server\n        client.close()\n\n        return output\n\n    except paramiko.SSHException as e:\n        return f\"SSH connection error: {e}\"\n\nif __name__ == \"__main__\":\n    hostname = \"sbx-nxos-mgmt.cisco.com\"\n    username = \"admin\"\n    password = \"Admin_1234!\"\n    \n    commands = [\"show interfacesqq\"]\n    status = []\n\n    result = run_ssh_command(hostname, username, password, commands, status)\n    print(result)\n", "output": "Syntax error while parsing 'show interfacesqq'\nCmd exec error.\n"}' http://localhost:5000/api/tsoutput 
+
+curl -X POST -H "Content-Type: application/json" -d '{"testcase": "print hello world","script_content": "prnt("hello world)","output": "NameError: name 'prnt' is not defined;"}' http://localhost:5000/api/tsoutput
+
+
+curl -X POST -H "Content-Type: application/json" -d '{ "question": "Why is Lucknow famous?" }' http://localhost:5000/ask
+
+
+
+curl -X POST -H "Content-Type: application/json" -d '{ "question": "What is the age of Ram and Shyam?" }' http://localhost:5000/ask

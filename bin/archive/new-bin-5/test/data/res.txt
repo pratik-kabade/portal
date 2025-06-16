@@ -1,0 +1,51 @@
+# Aarav Sharma
+123 Green Street
+Pune, MH 411001
+aarav.sharma@email.com | +91 9876543210 | LinkedIn Profile
+
+
+# Objective
+A highly motivated and detail-oriented recent graduate with a degree in Computer Science from Pune University. Seeking an entry-level position in software development to utilize my skills and contribute to the success of the organization.
+
+
+## Education
+Pune University, Pune, MH
+Bachelor of Computer Science, May 2024
+
+Relevant coursework: Data Structures, Algorithms, Database Management Systems
+GPA: 3.8
+
+
+## Skills
+Technical Skills: Java, Python, SQL, HTML/CSS, JavaScript
+Soft Skills: Problem-solving, Teamwork, Communication
+Languages: English, Hindi
+
+## Experience
+Intern, Tech Solutions Pvt. Ltd., Pune, MH
+June 2023 – August 2023
+
+Assisted with developing a web application for internal use
+Conducted research on new software tools and technologies
+Collaborated with team members to debug and test software
+Volunteer, Code for Good, Pune, MH
+January 2023 – April 2023
+
+Organized coding workshops for underprivileged students
+Managed social media accounts to promote events
+Provided support for event logistics and coordination
+
+## Projects
+Online Bookstore Application
+Developed a full-stack web application for an online bookstore using JavaScript, Node.js, and MongoDB. Implemented features such as user authentication, book search, and shopping cart. Successfully deployed the application and received positive feedback from users.
+
+
+## Certifications
+Certified Java Developer
+Python for Data Science Certification
+Extracurricular Activities
+Member of the Computer Science Club
+Participated in Hackathon 2023, winning second place
+
+## References
+Available upon request
