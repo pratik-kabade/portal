@@ -60,7 +60,7 @@ def extract_ports_with_llm(image_path):
     #     return []
  
  
-def process_images(input_dir="new_images", output_json="ocr_extraction_results.json"):
+def process_images(input_dir="new_images/e", output_json="ocr_extraction_results.json"):
     results = {}
  
     for filename in os.listdir(input_dir):
